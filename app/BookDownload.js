@@ -2,6 +2,8 @@ const http = require('http');
 const fs = require('fs');
 const sanitize = require("sanitize-filename");
 
+const DIRECTORY_SEPARATOR_REGEXP = /\/|\\/g;
+
 class BookDownload {
     static createFromUrl(url, bookDetailsPage) {
         return new BookDownload(url, bookDetailsPage.title());
@@ -26,7 +28,7 @@ class BookDownload {
 
     downloadTo(directory) {
         return new Promise((resolve, reject) => {
-            let fileWriteStream = fs.createWriteStream(directory + [sanitize(this.title()), this.extension()].join('.'));
+            let fileWriteStream = this._createFileWriteStream(directory + [this.title(), this.extension()].join('.'));
 
             http.get(this._url, (fileDownloadStream) => {
                 fileDownloadStream.pipe(fileWriteStream);
@@ -44,7 +46,14 @@ class BookDownload {
     }
 
     _createFileWriteStream(path) {
-        return fs.createWriteStream(path);
+        let sanitizedPath = path.split(DIRECTORY_SEPARATOR_REGEXP)
+            .map((fileOrDirectory) => {
+                if (fileOrDirectory === '..' || fileOrDirectory === '.') return fileOrDirectory;
+                return sanitize(fileOrDirectory);
+            })
+            .join('/');
+
+        return fs.createWriteStream(sanitizedPath);
     }
 }
 
