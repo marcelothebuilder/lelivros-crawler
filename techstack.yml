@@ -1,0 +1,225 @@
+repo_name: marcelothebuilder/lelivros-crawler
+report_id: 45365a366665a430b9b9f77f0d43adb1
+repo_type: Public
+timestamp: '2023-11-10T20:06:54+00:00'
+requested_by: marcelothebuilder
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 7.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2020-04-06 23:05:12.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 1.17.7
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 0.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: http
+  package_url: https://www.npmjs.com/http
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise
+  version: 4.2.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: sanitize-filename
+  description: Sanitize a string for use as a filename
+  package_url: https://www.npmjs.com/sanitize-filename
+  version: 1.6.3
+  license: WTFPL,ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17504/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+- name: url-parse
+  description: Small footprint URL parser that works seamlessly across Node.js and
+    browser environments
+  package_url: https://www.npmjs.com/url-parse
+  version: 1.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16942/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo Paixão Resende
+  last_updated_on: 2017-01-17 02:40:18.000000000 Z
+  vulnerabilities:
+  - name: Authorization Bypass Through User-Controlled Key in url-parse
+    cve_id: CVE-2022-0686
+    cve_url: https://github.com/advisories/GHSA-hgjh-723h-mx2j
+    detected_date: Feb 26
+    severity: critical
+    first_patched: 1.5.8
+  - name: Authorization bypass in url-parse
+    cve_id: CVE-2022-0512
+    cve_url: https://github.com/advisories/GHSA-rqff-837h-mm52
+    detected_date: Feb 18
+    severity: moderate
+    first_patched: 1.5.6
+  - name: Path traversal in url-parse
+    cve_id: CVE-2021-27515
+    cve_url: https://github.com/advisories/GHSA-9m6j-fcg5-2442
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.5.0
+  - name: url-parse incorrectly parses hostname / protocol due to unstripped leading
+      control characters.
+    cve_id: CVE-2022-0691
+    cve_url: https://github.com/advisories/GHSA-jf5r-8hm2-f872
+    detected_date: Mar 2
+    severity: moderate
+    first_patched: 1.5.9
+  - name: Open redirect in url-parse
+    cve_id: CVE-2021-3664
+    cve_url: https://github.com/advisories/GHSA-hh27-ffr2-f2jc
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.5.2
+  - name: url-parse Incorrectly parses URLs that include an '@'
+    cve_id: CVE-2022-0639
+    cve_url: https://github.com/advisories/GHSA-8v38-pw62-9cw2
+    detected_date: Feb 26
+    severity: moderate
+    first_patched: 1.5.7
