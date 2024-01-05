@@ -1,7 +1,8 @@
 repo_name: marcelothebuilder/lelivros-crawler
 report_id: 45365a366665a430b9b9f77f0d43adb1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T20:06:54+00:00'
+timestamp: '2024-01-05T08:52:24+00:00'
 requested_by: marcelothebuilder
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler
   detection_source: Repo Metadata
 - name: Chai
   description: A BDD / TDD assertion library
@@ -27,7 +29,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -39,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler
   detection_source: Repo Metadata
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
@@ -51,7 +54,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-04-06 23:05:12.000000000 Z
@@ -64,7 +67,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -76,6 +79,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -89,7 +93,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -104,7 +108,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -117,7 +121,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -131,7 +135,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -152,7 +156,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -166,7 +170,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17504/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
@@ -181,7 +185,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16942/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/lelivros-crawler/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2017-01-17 02:40:18.000000000 Z
